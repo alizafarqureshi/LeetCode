@@ -6,7 +6,7 @@ String s = "abcabcbb";
                 if (currentSubstring.indexOf(String.valueOf(s.charAt(j))) != -1) {
                     break;
                 }
-
+//Print max length
                 currentSubstring.append(s.charAt(j));
                 maxLenth = Math.max(maxLenth,currentSubstring.length());
 
