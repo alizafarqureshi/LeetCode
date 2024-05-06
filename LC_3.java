@@ -17,7 +17,7 @@ public class LC_3 {
         }
 
         int temp = 0;
-
+// for sorting
         for (int i= 0; i<newArr.length; i++){
             for (int j = i +1 ; j< newArr.length;j++){
                 if(newArr[i] > newArr[j]) {
