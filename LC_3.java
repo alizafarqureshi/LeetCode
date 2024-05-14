@@ -10,7 +10,7 @@ public class LC_3 {
             newArr[pos] = i;
             pos++;
         }
-
+//
         for(int i: nums2){
             newArr[pos] = i;
             pos++;
